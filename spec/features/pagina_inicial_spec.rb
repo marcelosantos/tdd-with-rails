@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-feature 'Página Inicial' do 
-  scenario 'Tela de Login' do
+feature 'página inicial' do 
+  scenario 'tela de login' do
     visit('/')
     expect(page).to have_content('Entrar')
   end
